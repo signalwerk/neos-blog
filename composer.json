@@ -22,7 +22,7 @@
     ],
     "require": {
         "neos/flow": "*",
-        "neos/neos": "~4.0",
+        "neos/neos": "~4.0 || ~5.0",
         "neos/fusion-afx": "~1.0",
         "neos/swiftmailer": "~6.0",
         "breadlesscode/neos-commentable": "~1.1",
