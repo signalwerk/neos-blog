@@ -33,7 +33,7 @@ class UserDataSource extends AbstractDataSource
      * @param array $arguments Additional arguments (key / value)
      * @return array JSON serializable data
      */
-    public function getData(NodeInterface $node = null, array $arguments)
+    public function getData(NodeInterface $node = null, array $arguments = [])
     {
         $users = $this->userRepository->findAll();
         $data = [];
